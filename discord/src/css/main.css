@@ -268,4 +268,26 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
   font-size: 100%;
   vertical-align: baseline;
 }
+
+.mobile-page {
+  display: none;
+  height: 100%;
+  text-align: center;
+  margin-top: 45vh;
+}
+
+@media only screen and (max-width: 844px) {
+  .mobile-page {
+    display: block;
+  }
+  body {
+    background: #18191c;
+    color: white;
+  }
+  .server-mobile-link {
+    color: #0059ff;
+    display: block;
+    margin-top: 1em;
+  }
+}
 /*# sourceMappingURL=main.css.map */
