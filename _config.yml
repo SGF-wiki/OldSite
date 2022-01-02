@@ -21,7 +21,7 @@
 title: SGFwiki
 email: support@sgf.wiki
 description: >- # this means to ignore newlines until "baseurl:"
-  A socialist wiki.
+  A free & socialist wiki.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sgf.wiki" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SGFORG
