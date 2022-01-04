@@ -30,7 +30,7 @@
 		<link rel="mask-icon" href="https://cdn.sgf.wiki/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
 		<link rel="shortcut icon" href="https://cdn.sgf.wiki/images/favicon/favicon.ico">
 		<!-- CSS -->
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdn.sgf.wiki/css/main.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
         <!-- JS -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -38,11 +38,67 @@
 		<title>SGFwiki &middot; A Free & Socialist Wiki</title>
     </head>
     <body>
-        <div class="wrapper">
-            <div class="body">
-                <div class="banner">
-                    <h1><strong>SGF</strong>wiki<span>.</span></h1>
+        <div id="wrapper">
+            <div id="body">
+                <div id="banner">
+                    <h1>SGF<em>wiki</em><span class="big-period">.</span></h1>
                     <p>A free & socialist wiki.</p>
+                    <label for="show-menu" class="responsive">&#9776;</label>
+                    <input type="checkbox" id="show-menu" role="button">
+                    <ul id="topnav">
+                        <li><a class="active">Home</a></li>
+                        <li><a href="https://sgf.wiki/featured">Featured</a></li>
+                        <li><a href="https://archive.sgf.wiki">Archive</a></li>
+                        <li><a href="https://leaks.sgf.wiki">Leaks</a></li>
+                        <li><a href="https://glossary.sgf.wiki">Glossary</a></li>
+                        <input type="text" placeholder="Search..">
+                    </ul>
+                </div>
+                <div id="sidebar">
+                    <h2>About</h2>
+                    <p>SGFwiki is an organization focused on providing accurate information relating to relevant topics. Our articles are backed by our SGF Sources team and are proofread every step of the way.</p>
+                    <h2>Categories</h2>
+                    <ul>
+                        <li><a href="https://sgf.wiki/Debunks">Debunks</a></li>
+                        <li><a href="https://sgf.wiki/Current_Events">Current Events</a></li>
+                        <li><a href="https://sgf.wiki/Beginners_Theory_Pack">Beginner's Theory Pack</a></li>
+                        <li><a href="https://sgf.wiki/wiki/SGF">More About SGF</a></li>
+                        <li><a href="https://sgf.wiki/ChinaWiki">China Wiki</a></li>
+                        <li><a href="https://sgf.wiki/Theory">Theory</a></li>
+                    </ul>
+                    <h2>Archives</h2>
+                    <ul>
+                        <li><a href="https://archive.sgf.wiki/CIA_Documents">CIA Documents</a></li>
+                        <li><a href="https://archive.sgf.wiki/Books">Books</a></li>
+                        <li><a href="https://archive.sgf.wiki/Documentaries">Documentaries</a></li>
+                    </ul>
+                    <h2>Links</h2>
+                    <ul>
+                        <li><a href="http://twitter.com/SGFORG">Twitter</a></li>
+                        <li><a href="https://sgf.wiki/discord">Discord</a></li>
+                        <li><a href="mailto:support@sgf.wiki">support@sgf.wiki</a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+                <div id="container">
+                    <div id="content">
+                        <div class="item">
+                            <h1>About SGFwiki.</h1>
+                            <p>SGF is an organization based on the idea of spreading the teachings of Marx and Lenin to those who seek it, bringing growth to the global class consciousness and ultimately pushing the undying goal of socialism. Founded on the principle of sharing knowledge, SGF has witnessed significant growth, and thus, the amount of importance placed on this information's access has increased. SGF, through this growth, will never fall back on it's original goals, and will hopefully only expand from here.</p>
+                            <p>If you wish to contribute to the SGFwiki, please contact us via email or in the <a href="https://sgf.wiki/discord" target="_blank">Discord</a> server.</p>
+                            <h3>Things to note:</h3>
+                            <ul>
+                                <li> Any contributions are reviewed before deciding whether to add it to the site or not. It is possible your submission may be edited or revised.</li>
+                                <li> Your contribution will be automatically denied if it is not relevant to the many aspects of society, including: history, politics, economics, etc.</li>
+                                <li> You will be contacted with an update on whether your contribution was accepted or denied.</li>
+                                <li> It is possible that your contribution gets approved after already having been denied.</li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <h1>This site is a WIP.</h1>
+                            <p>This wiki is intended to be expanded upon and completed overtime. This is not a quick and easy process so things will start off slow. Eventually we plan to have a site full of free resources and information for anyone to use.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
